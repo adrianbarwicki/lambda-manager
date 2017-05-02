@@ -1,0 +1,30 @@
+{
+  "name": "lambda-manager",
+  "version": "1.0.0",
+  "description": "Allows for managing, build and deploying AWS lambdas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianbarwicki/lambda-manager.git"
+  },
+  "keywords": [
+    "lambda",
+    "aws",
+    "tool",
+    "manager",
+    "similify",
+    "deploy",
+    "build",
+    "zip",
+    "node"
+  ],
+  "author": "Adrian Barwicki (adrianbarwicki@gmail.com)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/adrianbarwicki/lambda-manager/issues"
+  },
+  "homepage": "https://github.com/adrianbarwicki/lambda-manager#readme"
+}

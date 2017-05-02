@@ -1,0 +1,8 @@
+lambdas-build/*
+lambdas-src/*
+
+# exception to the rule
+!lambdas-src/.gitkeep
+
+# exception to the rule
+!lambdas-build/.gitkeep
