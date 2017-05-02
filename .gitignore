@@ -1,5 +1,6 @@
 lambdas-build/*
 lambdas-src/*
+node_modules/
 
 # exception to the rule
 !lambdas-src/.gitkeep

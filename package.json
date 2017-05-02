@@ -4,6 +4,7 @@
   "description": "Allows for managing, build and deploying AWS lambdas",
   "main": "index.js",
   "scripts": {
+    "build": "node ./gulpfile.js build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,5 +27,13 @@
   "bugs": {
     "url": "https://github.com/adrianbarwicki/lambda-manager/issues"
   },
-  "homepage": "https://github.com/adrianbarwicki/lambda-manager#readme"
+  "homepage": "https://github.com/adrianbarwicki/lambda-manager#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-foreach": "^0.1.0",
+    "gulp-zip": "^4.0.0"
+  },
+  "dependencies": {
+    "gulp-foreach": "^0.1.0"
+  }
 }
