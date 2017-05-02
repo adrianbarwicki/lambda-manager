@@ -2,8 +2,10 @@ lambdas-build/*
 lambdas-src/*
 node_modules/
 
-# exception to the rule
+# exceptions to the rule ( we want these folders in our repo)
+!lambdas-build/.gitkeep
 !lambdas-src/.gitkeep
 
-# exception to the rule
-!lambdas-build/.gitkeep
+# we want test lambda for display purposes
+!lambdas-src/example-lambda
+!lambdas-build/example-lambda

@@ -10,8 +10,11 @@ cd lambda-manager
 npm install
 ```
 
+## Your first lambda
+Check out the contents of ./lambdas-src/example-lambda to start working on your first lambda function.
+
 ## Building
-This will zip every lambda package from ./lambdas-src and pipe it into lambdas-build folder.
+This will zip every lambda package from ./lambdas-src and pipe it into ./lambdas-build folder.
 ```
 npm run build
 ```
