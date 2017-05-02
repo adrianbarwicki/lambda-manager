@@ -1,5 +1,5 @@
 # lambda-manager
-Simpifies management, building and deploying AWS lambda functions
+Simplifies management, building and deploying AWS lambda functions
 
 ## Getting started
 ```
