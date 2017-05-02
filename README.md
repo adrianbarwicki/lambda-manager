@@ -16,7 +16,14 @@ Check out the contents of ./lambdas-src/example-lambda to start working on your 
 ## Building
 This will zip every lambda package from ./lambdas-src and pipe it into ./lambdas-build folder.
 ```
-npm run build
+gulp build
+```
+
+## Upload to AWS S3
+It uploads the contents of /lambdas-build to AWS-S3 bucket. You can configure the name and region of your bucket in the ./s3-config.json file. Remember also to provide AWS credentials in your user directory.
+
+```
+gulp deploy
 ```
 
 ## Author

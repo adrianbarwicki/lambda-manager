@@ -4,6 +4,7 @@
   "description": "Allows for managing, build and deploying AWS lambdas",
   "main": "index.js",
   "scripts": {
+    "deploy": "node ./gulpfile.js deploy",
     "build": "node ./gulpfile.js build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -31,7 +32,8 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-foreach": "^0.1.0",
-    "gulp-zip": "^4.0.0"
+    "gulp-zip": "^4.0.0",
+    "s3-deploy": "^0.7.5"
   },
   "dependencies": {
     "gulp-foreach": "^0.1.0"
